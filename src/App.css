@@ -1,0 +1,86 @@
+/* Mesra UI - App.css */
+
+body {
+  font-family: 'Inter', 'Segoe UI', Arial, sans-serif;
+  background: linear-gradient(120deg, #f6f8fc 0%, #e3f0ff 100%);
+  color: #222;
+  margin: 0;
+  min-height: 100vh;
+}
+
+.app-container {
+  max-width: 900px;
+  margin: 40px auto;
+  background: #fff;
+  border-radius: 18px;
+  box-shadow: 0 4px 32px 0 rgba(0, 60, 120, 0.08);
+  padding: 32px 24px;
+}
+
+h1, h2, h3, h4, h5, h6 {
+  color: #1a4d7a;
+  font-weight: 700;
+  margin-bottom: 0.5em;
+}
+
+a {
+  color: #2b7cff;
+  text-decoration: none;
+  transition: color 0.2s;
+}
+
+a:hover {
+  color: #1a4d7a;
+}
+
+button, .btn {
+  background: linear-gradient(90deg, #2b7cff 0%, #1a4d7a 100%);
+  color: #fff;
+  border: none;
+  border-radius: 8px;
+  padding: 10px 22px;
+  font-size: 1rem;
+  font-weight: 600;
+  cursor: pointer;
+  box-shadow: 0 2px 8px 0 rgba(43,124,255,0.08);
+  transition: background 0.2s, box-shadow 0.2s;
+}
+
+button:hover, .btn:hover {
+  background: linear-gradient(90deg, #1a4d7a 0%, #2b7cff 100%);
+  box-shadow: 0 4px 16px 0 rgba(43,124,255,0.12);
+}
+
+input, textarea, select {
+  border: 1px solid #c7d7ef;
+  border-radius: 6px;
+  padding: 10px 12px;
+  font-size: 1rem;
+  margin-bottom: 16px;
+  width: 100%;
+  box-sizing: border-box;
+  background: #f6f8fc;
+  transition: border 0.2s;
+}
+
+input:focus, textarea:focus, select:focus {
+  border: 1.5px solid #2b7cff;
+  outline: none;
+}
+
+.card {
+  background: #fafdff;
+  border-radius: 12px;
+  box-shadow: 0 2px 12px 0 rgba(43,124,255,0.06);
+  padding: 20px 18px;
+  margin-bottom: 24px;
+}
+
+::-webkit-scrollbar {
+  width: 8px;
+  background: #e3f0ff;
+}
+::-webkit-scrollbar-thumb {
+  background: #b3d1fa;
+  border-radius: 8px;
+}
